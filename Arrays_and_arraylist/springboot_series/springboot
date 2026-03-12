@@ -1,0 +1,48 @@
+what is the difference between tight coupling and loose coupling?
+tight coupling :- Tight coupling is a design situation where one class directly depends
+ on the concrete implementation of another class. Because of this strong dependency, any change in one class can impact the other class, making the system harder to maintain and modify.
+
+
+2) what is the differnece between concrete class and abstract class ?
+A concrete class is a fully implemented class whose objects can be created directly, whereas an abstract class is an incomplete class that cannot be instantiated and is meant to be extended by other classes.
+
+3)why framework is required?
+java provides alot of feature and methods but we want to impelement enterprise level application or business application that time we need to focus on the business logic rather than focusing on the boiler plate code. while developing the applcation wee need to do so many things like logging , batching applying security to the application framework provides basic structure and basic functionality that we can work upon and we can mainly focus on our business implementation. 
+
+4) what do you mean by ioc ?
+ioc stands for inversion of control-
+
+
+5) what do you mean by @springboot application ?
+it perform auto configuration 
+its start ioc container 
+ it perfrom component Component scanning
+
+ 6) what is the difference between application context interface and bean factory interface ?
+
+ 7) what are the type of ioc container available in springboot application ?
+ basically there are two type of ioc container available in springboot applcaiton :
+ 1) bean factory( lazy loading )
+ 2) applicationcontext(eager loading)
+ 
+
+ 9) what does ioc container does ?
+ ioc container is responsbile for:-
+ creating beans 
+ injecting dependencies 
+ managing the life cycle of beanch . 
+ bean factory:-
+ Basic IoC container
+Uses Lazy Loading
+Beans created only when requested
+2️⃣ ApplicationContext:-
+Advanced IoC container
+Extends BeanFactory
+Uses Eager Loading
+Provides extra features like:
+Event handling
+AOP
+Internationalization
+
+
+
